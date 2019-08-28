@@ -24,7 +24,7 @@
   - Sides: Fries, Onion-rings, Salad.
   - Drink: Coke, Sprite, Sweet tea, Coffee, Water.
 
-- Populate the About Component.
+<!-- - Populate the About Component. -->
 
 <!-- - Global messages component: a little box that sits off screen when not prompt, and whenever an 'important' event (i.e: sign up, sign in, sign out ,order received, etc) happend in the app it is prompt to the screen from the top announcing event success (or failure). -->
 

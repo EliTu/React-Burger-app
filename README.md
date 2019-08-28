@@ -12,7 +12,11 @@ This project origins and base is the Burger Builder project from the ["React - T
 - Test runner: [Jest](https://github.com/facebook/jest)
 - React test utilities: [Enzyme](https://github.com/airbnb/enzyme)
 
+## Features
+
 ## To implement
 
 - Test suite coverage >= 80% (Currently ~40%)
 - Animations with [React-Spring](https://www.react-spring.io/)
+- More burger build options
+- Ability to delete orders (UI & Database)
