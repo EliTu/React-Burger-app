@@ -1,6 +1,10 @@
 # The React Burger app, by Eliad Tuksher
 
-This project origins and base is the Burger Builder project from the ["React - The Complete Guide"](https://www.udemy.com/react-the-complete-guide-incl-redux/) Udemy course, by Maximillian Schwartzmuler. Credit for the idea and the very base layout goes to Max. My repo for the course, and all subsequent work process on the app, can be found [here](https://github.com/EliTu/React-The-Complete-Guide-Couse-Repo). 
+This project origins and base is the Burger Builder project from the ["React - The Complete Guide"](https://www.udemy.com/react-the-complete-guide-incl-redux/) Udemy course, by Maximillian Schwartzmuler.
+
+Though the main idea and base layout are part of the course project, Through the teachings of Max and further dive into React and its ecosystem, I came up with a different implamentation of the app, functionality and layout wise. Credit for the idea and the very base layout goes to Max.
+ 
+My repo for the course, and all subsequent work process on the app, can be found [here](https://github.com/EliTu/React-The-Complete-Guide-Couse-Repo). 
 
 ## Technologies used
 
@@ -12,7 +16,7 @@ This project origins and base is the Burger Builder project from the ["React - T
 - Test runner: [Jest](https://github.com/facebook/jest)
 - React test utilities: [Enzyme](https://github.com/airbnb/enzyme)
 
-## Features
+## Features 
 
 ## To implement
 
