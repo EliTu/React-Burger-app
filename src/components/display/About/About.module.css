@@ -1,5 +1,16 @@
+@import '../../../variables.css';
+
 .About {
-	display: block;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem auto;
+	font-size: 1.2rem;
+	color: var(--coloring-dark);
+	line-height: 1.5rem;
 }
 
 .About h1 {
@@ -9,6 +20,32 @@
 	margin: 0 auto;
 }
 
+.About p,
+ul {
+	width: 90%;
+	margin: 1.6rem 0.5rem;
+	padding: 1rem;
+	box-shadow: var(--shadow-light);
+}
+
+.About a {
+	color: var(--light-blue);
+}
+
+.About a:hover {
+	color: var(--glow-light-blue);
+}
+
+.About ul {
+	list-style-type: none;
+}
+
+.About li {
+	margin: 0.7rem 0.3rem;
+	padding-left: 1.5rem;
+}
+
 .techName {
 	font-size: 1.1rem;
+	font-weight: 600;
 }
