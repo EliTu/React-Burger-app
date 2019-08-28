@@ -1,0 +1,70 @@
+@import '../../../../variables.css';
+
+.Controller {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+    padding: 3px 0;
+    border-bottom: 2px solid var(--coloring-opaque-dark);
+    border-radius: 2px;
+    user-select: none;
+}
+
+.Controller button {
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin: 0 5px;
+    width: 80px;
+    border: 1px solid var(--coloring-light);
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+    font-size: 1.1rem;
+}
+
+.Controller button:disabled {
+    background-color: var(--disabled-dark);
+    border: 1px solid var(--coloring-light);
+    color: var(--coloring-opaque-dark);
+    cursor: default;
+}
+
+.Controller button:hover:disabled {
+    background-color: var(--coloring-light);
+    color: var(--coloring-opaque-dark);
+    cursor: not-allowed;
+    border-radius: 15px;
+}
+
+.Label {
+    padding: 10px;
+    font-weight: bold;
+    width: 80px;
+}
+
+.Controller .Less {
+    background-color: var(--dark-blue);
+    color: var(--coloring-light);
+}
+
+.Controller .More {
+    background-color: var(--light-blue);
+    color: var(--coloring-light);
+}
+
+.Controller .Less:hover,
+.Controller .Less:active {
+    background-color: var(--glow-dark-blue);
+    color: var(--coloring-light);
+    border-radius: 15px;
+}
+
+.Controller .More:hover,
+.Controller .More:active {
+    background-color: var(--glow-light-blue);
+    color: var(--coloring-light);
+    border-radius: 15px;
+}

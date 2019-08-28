@@ -1,0 +1,76 @@
+@import '../../../../variables.css';
+
+.SignIn {
+    width: 20%;
+    position: absolute;
+    top: 5.4%;
+    right: 5%;
+    display: flex;
+    text-align: center;
+    flex-flow: column;
+    align-content: center;
+    z-index: 5;
+    padding: 0.6rem 0.5rem;
+    margin: 0.3rem auto;
+    color: var(--coloring-dark);
+    background-color: rgb(245, 245, 245);
+    border-top: none;
+    border-right: 2px solid var(--coloring-opaque-light);
+    border-left: 2px solid var(--coloring-opaque-light);
+    border-bottom: 2px solid var(--coloring-opaque-light);
+    box-shadow: var(--shadow-light);
+    border-radius: 7px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.SignIn h2 {
+    color: var(--coloring-dark);
+    margin: 0.8rem auto;
+    padding: 0.3rem 0;
+    text-align: center;
+    border-bottom: 2px solid var(--coloring-opaque-dark);
+    width: 100%;
+}
+
+.Closed {
+    opacity: 0;
+    transform: translateY(-150%);
+}
+
+.Open {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Medium screen */
+@media screen and (max-width: 1250px) {
+    .SignIn {
+        width: 35%;
+    }
+}
+
+/* Small screen */
+@media screen and (max-width: 499px) {
+    .SignIn {
+        width: 80%;
+        top: 20%;
+        right: 10%;
+        z-index: 110;
+        border: 1px solid var(--coloring-bright-light);
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        box-shadow: var(--shadow-light)
+    }
+
+    .Closed {
+        opacity: 0;
+        transform: translateX(-150%);
+    }
+
+    .Open {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

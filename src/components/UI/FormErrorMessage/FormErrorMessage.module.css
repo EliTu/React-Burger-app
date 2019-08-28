@@ -1,0 +1,7 @@
+@import '../../../variables.css';
+
+.FormErrorMessage p {
+    display: inline-block;
+    font-size: 0.9rem;
+    color: var(--invalid-red-dark);
+}

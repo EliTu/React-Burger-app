@@ -1,0 +1,24 @@
+@import '../../../variables.css';
+
+.GoBackMessage {
+    color: var(--invalid-red-dark);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    width: 65%;
+    margin: 3rem auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    border: 2px solid var(--coloring-opaque-dark);
+    border-radius: 7px;
+}
+
+.GoBackMessage button {
+    margin: 0.7rem 0;
+}
+
+/* Small screen */
+@media only screen and (max-width: 500px) {
+    .GoBackMessage {
+        width: 90%;
+    }
+}

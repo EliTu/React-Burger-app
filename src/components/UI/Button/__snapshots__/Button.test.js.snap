@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button> should render the component without errors 1`] = `
+<button
+  className="Button undefined undefined"
+  onClick={[Function]}
+>
+  abc
+</button>
+`;
+
+exports[`<Button> should set button styles according to the type prop 1`] = `
+<button
+  className="Button Confirm "
+  onClick={[Function]}
+>
+  abc
+</button>
+`;
+
+exports[`<Button> should set button styles according to the type prop 2`] = `
+<button
+  className="Button Danger "
+  onClick={[Function]}
+>
+  abc
+</button>
+`;
+
+exports[`<Button> should set the toolBarButton style to MenuToggle on a small screen 1`] = `
+<button
+  className="Button  MenuToggle"
+  onClick={[Function]}
+>
+  abc
+</button>
+`;

@@ -1,0 +1,55 @@
+.NotificationBox {
+    width: 20%;
+    height: 110px;
+    position: absolute;
+    top: 5.4%;
+    right: 40%;
+    display: flex;
+    text-align: center;
+    flex-flow: column;
+    align-content: center;
+    z-index: 5;
+    padding: 0.6rem 0.5rem;
+    margin: 0.3rem auto;
+    color: var(--coloring-dark);
+    background-color: rgba(245, 245, 245, 0.856);
+    border-top: none;
+    border-right: 2px solid var(--coloring-opaque-light);
+    border-left: 2px solid var(--coloring-opaque-light);
+    border-bottom: 2px solid var(--coloring-opaque-light);
+    box-shadow: var(--shadow-light);
+    border-radius: 7px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.Closed {
+    opacity: 0;
+    transform: translateY(-150%);
+}
+
+.Open {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Small screen */
+@media only screen and (max-width: 500px) {
+    .NotificationBox {
+        width: 60%;
+        top: 12%;
+        right: 20%;
+    }
+
+    .Closed {
+        opacity: 0;
+        transform: translatex(-150%);
+    }
+
+    .Open {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

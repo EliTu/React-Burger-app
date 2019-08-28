@@ -1,0 +1,19 @@
+@import '../../../variables.css';
+
+.Checkout {
+    display: flex;
+}
+
+.CheckoutHeader {
+    margin: 3rem auto;
+    text-align: center;
+    color: var(--coloring-dark);
+    margin: 1rem auto;
+}
+
+/* Small screen */
+@media screen and (max-width: 500px) {
+    .Checkout {
+        display: block;
+    }
+}

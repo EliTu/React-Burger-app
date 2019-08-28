@@ -1,0 +1,39 @@
+@import '../../variables.css';
+
+.CheckoutSummary {
+    box-sizing: border-box;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 7px;
+}
+
+.BurgerDisplay {
+    width: 100%;
+    height: 40%;
+    margin: auto;
+    padding: 0.2rem 0;
+    border: 2px solid var(--coloring-opaque-light);
+    box-shadow: var(--shadow-light);
+}
+
+.CheckoutSummary button {
+    display: inline;
+    text-align: center;
+    margin: 0.8rem 0.6rem;
+}
+
+.Price {
+    margin-left: 0.3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--glow-green-darker);
+}
+
+/* Small screen */
+@media only screen and (max-width: 500px) {
+    .CheckoutSummary {
+        width: 90%;
+    }
+}

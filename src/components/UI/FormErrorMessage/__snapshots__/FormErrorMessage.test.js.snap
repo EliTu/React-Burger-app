@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormErrorMessage> should render a specific error message if errorType is emptyFields 1`] = `
+<div
+  className="FormErrorMessage"
+>
+  <p>
+    Please properly fill out all the required fields before submitting.
+  </p>
+</div>
+`;
+
+exports[`<FormErrorMessage> should render a specific error message if errorType is noMatch 1`] = `
+<div
+  className="FormErrorMessage"
+>
+  <p>
+    The passwords you entered did not match! please try again.
+  </p>
+</div>
+`;
+
+exports[`<FormErrorMessage> should render the component without errors 1`] = `
+<div
+  className="FormErrorMessage"
+/>
+`;

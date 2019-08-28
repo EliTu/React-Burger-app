@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> should render the Backdrop component if mounted 1`] = `
+<Fragment>
+  <Backdrop />
+  <div
+    className="Modal"
+    data-test="wrapper-div"
+    style={
+      Object {
+        "opacity": "0",
+        "transform": "translateX(100vh)",
+      }
+    }
+  />
+</Fragment>
+`;
+
+exports[`<Modal /> should render the children props without errors 1`] = `
+<Fragment>
+  <Backdrop />
+  <div
+    className="Modal"
+    data-test="wrapper-div"
+    style={
+      Object {
+        "opacity": "0",
+        "transform": "translateX(100vh)",
+      }
+    }
+  />
+</Fragment>
+`;
+
+exports[`<Modal /> should render the wrapper <div> containing the children 1`] = `
+<Fragment>
+  <Backdrop />
+  <div
+    className="Modal"
+    data-test="wrapper-div"
+    style={
+      Object {
+        "opacity": "0",
+        "transform": "translateX(100vh)",
+      }
+    }
+  />
+</Fragment>
+`;
+
+exports[`<Modal /> should render without errors 1`] = `
+<Fragment>
+  <Backdrop />
+  <div
+    className="Modal"
+    data-test="wrapper-div"
+    style={
+      Object {
+        "opacity": "0",
+        "transform": "translateX(100vh)",
+      }
+    }
+  />
+</Fragment>
+`;

@@ -1,0 +1,28 @@
+@import '../../../variables.css';
+
+.Modal {
+    position: fixed;
+    z-index: 500;
+    margin: auto 0;
+    color: var(--coloring-dark);
+    width: 90%;
+    border-radius: 8px;
+    outline: 2px solid var(--coloring-opaque-dark);
+    outline-offset: -13px;
+    box-shadow: var(--shadow-dark);
+    padding: 2rem;
+    left: 5%;
+    top: 20%;
+    box-sizing: border-box;
+    transition: all 0.4s ease-out;
+    text-align: center;
+    background-color: var(--primary-background-light);
+}
+
+/* large screen */
+@media (min-width: 600px) {
+    .Modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}

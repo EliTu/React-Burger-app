@@ -1,0 +1,75 @@
+@import '../../../../variables.css';
+
+.Toolbar {
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--primary-background-blue);
+    padding: 0 1.1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    z-index: 90;
+    box-shadow: var(--shadow-dark);
+}
+
+.ItemsWrapper {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.1rem;
+    margin: auto 0;
+    height: 56px;
+}
+
+.logoWrapper {
+    display: flex;
+    align-items: center;
+    height: 56px;
+}
+
+.Toolbar nav {
+    height: 100%;
+}
+
+/* Desktop - Remove sideDrawer Toggle button */
+@media screen and (min-width: 500px) {
+    .Toolbar button {
+        display: none;
+    }
+}
+
+/* Medium screen */
+@media screen and (max-width: 1200px) {
+    .ItemsWrapper {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* small screen */
+@media screen and (max-width:500px) {
+    .DesktopOnly {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Toolbar {
+        height: 70px;
+        justify-content: space-between;
+        justify-items: end;
+        align-content: flex-end;
+    }
+
+    .ItemsWrapper {
+        width: inherit;
+    }
+
+    .Toolbar button {
+        border: none;
+    }
+}

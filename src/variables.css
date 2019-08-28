@@ -1,0 +1,43 @@
+:root {
+    /* Background colors */
+    --primary-background-dark: linear-gradient(180deg, rgba(32, 32, 32, 0.829), rgba(20, 20, 20, 0.815) 70%);
+    --primary-background-light: rgba(241, 238, 238, 0.993);
+    --primary-background-blue: rgba(54, 110, 214, 0.925);
+    --primary-background-opaque-blue: rgba(65, 103, 168, 0.781);
+
+    /* Green sets */
+    --glow-green-lighter: rgba(105, 241, 105, 0.808);
+    --glow-green-darker: rgba(73, 243, 73, 0.884);
+    --glow-green-opaque: rgba(17, 116, 17, 0.527);
+    --glow-green-opaque-lighter: rgba(10, 187, 10, 0.527);
+
+    /* Red sets */
+    --invalid-red-light: rgb(247, 109, 109);
+    --invalid-red-dark: rgba(238, 87, 87, 0.89);
+
+    /* Blue sets */
+    --light-blue: rgba(76, 122, 207, 0.925);
+    --glow-light-blue: rgba(121, 160, 233, 0.925);
+    --dark-blue: rgba(31, 42, 61, 0.705);
+    --glow-dark-blue: rgba(87, 104, 133, 0.726);
+    --dark-cyan: rgba(18, 158, 163, 0.938);
+
+    /* Coloring variations (usually for fonts)  */
+    --coloring-dark: rgba(27, 24, 24, 0.836);
+    --coloring-opaque-dark: rgba(44, 39, 39, 0.507);
+    --coloring-light: rgba(218, 214, 214, 0.938);
+    --coloring-bright-light: rgba(255, 255, 255, 0.884);
+    --coloring-opaque-light: rgba(167, 164, 164, 0.788);
+
+    /* Button colors */
+    --confirmation-green: rgba(16, 151, 4, 0.781);
+    --danger-red: rgb(226, 17, 17);
+    --disabled-dark: rgba(186, 189, 185, 0.973);
+    --disabled-light: #C7C6C6;
+
+    /* Box-shadow */
+    --shadow-dark: 1px 1px 3px rgba(0, 0, 0, 0.904);
+    --shadow-light: 1px 1px 3px #ccc;
+    --shadow-bright-glow: 1px 1px 10px 5px rgb(182, 177, 177);
+    --shadow-dark-glow: 1px 1px 10px 5px rgba(46, 43, 43, 0.678);
+}

@@ -1,0 +1,22 @@
+@import '../../../variables.css';
+
+.ContactData {
+    color: var(--coloring-dark);
+    border: 2px solid var(--coloring-opaque-light);
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: var(--shadow-light);
+    padding: 0.8rem;
+}
+
+.ContactData h4 {
+    font-size: 1.5rem;
+}
+
+@media (min-width: 600px) {
+    .ContactData {
+        width: 500px;
+    }
+}

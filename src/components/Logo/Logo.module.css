@@ -1,0 +1,8 @@
+@import '../../variables.css';
+
+.Logo {
+    box-sizing: border-box;
+    margin: 0.5rem 0;
+    text-align: center;
+    color: var(--coloring-bright-light);
+}

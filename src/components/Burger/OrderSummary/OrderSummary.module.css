@@ -1,0 +1,37 @@
+@import '../../../variables.css';
+
+p {
+    font-size: 1.1rem;
+}
+
+.UnorderedStyle {
+    margin: 2rem auto;
+    padding: 0.4rem;
+    width: 50%;
+    list-style: none;
+    border-left: 2px dashed var(--coloring-opaque-dark);
+    border-right: 2px dashed var(--coloring-opaque-dark);
+}
+
+.IngredientStyle {
+    text-transform: capitalize;
+}
+
+h3 {
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--coloring-opaque-dark);
+    border-radius: 7px;
+}
+
+.Price {
+    margin-left: 0.3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--glow-green-darker);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

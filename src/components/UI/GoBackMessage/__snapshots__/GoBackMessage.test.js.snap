@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GoBackMessage> should render the component without errors 1`] = `
+<div
+  className="GoBackMessage"
+>
+  abc
+  <Button
+    handleClick={[Function]}
+    type="Danger"
+  >
+    Go back
+  </Button>
+</div>
+`;

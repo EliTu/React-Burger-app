@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AuthErrorMessage> should render a default error message if errorMessage has no value 1`] = `
+<Fragment>
+  <p
+    className="AuthErrorMessage"
+  >
+    Oops! an Unexpected error has occurred!
+  </p>
+</Fragment>
+`;
+
+exports[`<AuthErrorMessage> should render the component without errors 1`] = `
+<Fragment>
+  <p
+    className="AuthErrorMessage"
+  >
+    Oops! an Unexpected error has occurred!
+  </p>
+</Fragment>
+`;
+
+exports[`<AuthErrorMessage> should render the correct message corresponding to EMAIL_EXISTS error 1`] = `
+<Fragment>
+  <p
+    className="AuthErrorMessage"
+  >
+    The email you've provided is already taken. Please provide a different email address
+  </p>
+</Fragment>
+`;
+
+exports[`<AuthErrorMessage> should render the correct message corresponding to EMAIL_NOT_FOUND error 1`] = `
+<Fragment>
+  <p
+    className="AuthErrorMessage"
+  >
+    The email you've provided does not exist. Please try signing in with a different email or register a new user with the unused email
+  </p>
+</Fragment>
+`;
+
+exports[`<AuthErrorMessage> should render the correct message corresponding to INVALID_PASSWORD error 1`] = `
+<Fragment>
+  <p
+    className="AuthErrorMessage"
+  >
+    Wrong password. Please try again
+  </p>
+</Fragment>
+`;
+
+exports[`<AuthErrorMessage> should render the correct message corresponding to TOO_MANY_ATTEMPTS_TRY_LATER error 1`] = `
+<Fragment>
+  <p
+    className="AuthErrorMessage"
+  >
+    Too many attempts. Please try again later
+  </p>
+</Fragment>
+`;
+
+exports[`<AuthErrorMessage> should render the correct message corresponding to USER_DISABLED error 1`] = `
+<Fragment>
+  <p
+    className="AuthErrorMessage"
+  >
+    The account you're trying to sign in to has been disabled
+  </p>
+</Fragment>
+`;

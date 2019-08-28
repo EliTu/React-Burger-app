@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input/> Component (not testing the input fields) should render an Input component withot errors 1`] = `
+<div
+  className="Input"
+>
+  <label>
+    abc
+  </label>
+  <input
+    className="ValidStyle"
+    data-test="input-test"
+    label="abc"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    options={
+      Array [
+        Object {
+          "displayValue": "Fastest",
+          "key": "1",
+          "value": "fastest",
+        },
+        Object {
+          "displayValue": "Cheapest",
+          "key": "2",
+          "value": "cheapest",
+        },
+      ]
+    }
+    placeholder="abc"
+    type="text"
+    value="abc"
+  />
+</div>
+`;
+
+exports[`<Input/> Type: input="select" test should render without errors 1`] = `
+<div
+  className="Input"
+>
+  <label>
+    abc
+  </label>
+  <select
+    data-test="select-test"
+    onChange={[Function]}
+    value="abc"
+  >
+    <option
+      key="fastest"
+      value="fastest"
+    >
+      Fastest
+    </option>
+    <option
+      key="cheapest"
+      value="cheapest"
+    >
+      Cheapest
+    </option>
+  </select>
+</div>
+`;
+
+exports[`<Input/> Type: input="text" test should not render if elementType is not input  1`] = `
+<div
+  className="Input"
+>
+  <label>
+    abc
+  </label>
+  <input
+    className={null}
+    label="abc"
+    onKeyPress={[Function]}
+    options={
+      Array [
+        Object {
+          "displayValue": "Fastest",
+          "key": "1",
+          "value": "fastest",
+        },
+        Object {
+          "displayValue": "Cheapest",
+          "key": "2",
+          "value": "cheapest",
+        },
+      ]
+    }
+    placeholder="abc"
+    type="text"
+    value="abc"
+  />
+</div>
+`;
+
+exports[`<Input/> Type: input="text" test should render the component without errors 1`] = `
+<div
+  className="Input"
+>
+  <label>
+    abc
+  </label>
+  <input
+    className="ValidStyle"
+    data-test="input-test"
+    label="abc"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    options={
+      Array [
+        Object {
+          "displayValue": "Fastest",
+          "key": "1",
+          "value": "fastest",
+        },
+        Object {
+          "displayValue": "Cheapest",
+          "key": "2",
+          "value": "cheapest",
+        },
+      ]
+    }
+    placeholder="abc"
+    type="text"
+    value="abc"
+  />
+</div>
+`;
+
+exports[`<Input/> Type: input="textarea" test should render without errors 1`] = `
+<div
+  className="Input"
+>
+  <label>
+    abc
+  </label>
+  <textarea
+    data-test="textarea-test"
+    label="abc"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    options={
+      Array [
+        Object {
+          "displayValue": "Fastest",
+          "key": "1",
+          "value": "fastest",
+        },
+        Object {
+          "displayValue": "Cheapest",
+          "key": "2",
+          "value": "cheapest",
+        },
+      ]
+    }
+    placeholder="abc"
+    type=""
+    value="abc"
+  />
+</div>
+`;

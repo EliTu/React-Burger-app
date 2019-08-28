@@ -1,0 +1,35 @@
+@import '../../../variables.css';
+
+.Footer {
+    height: 45px;
+    width: 100%;
+    margin-top: 0.3rem;
+    padding: 0.3rem;
+    background-color: var(--primary-background-blue);
+    text-align: center;
+    color: var(--coloring-light);
+    font-size: 0.8rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer p {
+    font-size: 0.8rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+
+.Footer a {
+    color: var(--coloring-bright-light);
+}
+
+/* Small screen */
+@media screen and (max-width: 500px) {
+    .Footer p {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+}

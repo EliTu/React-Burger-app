@@ -1,0 +1,56 @@
+@import '../../../../variables.css';
+
+.MainHeader {
+    margin: 3rem auto;
+    text-align: center;
+    color: var(--coloring-dark);
+}
+
+.SignUp {
+    border: 2px solid var(--coloring-opaque-light);
+    color: var(--coloring-dark);
+    margin: 3rem auto;
+    width: 40%;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: var(--shadow-light);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.SignUp h2 {
+    color: var(--coloring-dark);
+    margin: 0.8rem auto;
+    padding: 1rem 0;
+    text-align: center;
+    width: 90%;
+}
+
+.SignUp button {
+    margin: 0.5rem;
+}
+
+.SuccessMessage {
+    color: var(--light-blue);
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 960px) {
+    .SignUp {
+        width: 65%;
+    }
+}
+
+/* Medium screen */
+@media only screen and (max-width: 1250px) {
+    .SignUp {
+        width: 70%;
+    }
+}
+
+/* Small screen */
+@media only screen and (max-width: 500px) {
+    .SignUp {
+        width: 90%;
+    }
+}
