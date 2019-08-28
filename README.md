@@ -1,8 +1,10 @@
 # The React Burger app, by Eliad Tuksher
 
-## Link
 URL: [React Burger](https://react-burger-builder-cc7b1.firebaseapp.com/)
+
 Deployed and hosted on Firebase.
+
+## Intro
 
 This project origins and base is the Burger Builder project from the ["React - The Complete Guide"](https://www.udemy.com/react-the-complete-guide-incl-redux/) Udemy course, by Maximillian Schwartzmuler.
 
