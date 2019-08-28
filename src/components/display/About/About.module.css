@@ -16,8 +16,8 @@
 .About h1 {
 	margin: 3rem auto;
 	text-align: center;
-	color: rgba(27, 24, 24, 0.904);
-	margin: 0 auto;
+	color: var(--coloring-dark);
+	margin: 1rem auto;
 }
 
 .About p,
@@ -48,4 +48,23 @@ ul {
 .techName {
 	font-size: 1.1rem;
 	font-weight: 600;
+}
+
+/* Small screen */
+@media only screen and (max-width: 500px) {
+	.About {
+		width: 95%;
+		margin: 0.2rem auto;
+	}
+
+	.About p {
+		width: 95%;
+		font-size: 1rem;
+		margin: 0.4rem;
+		text-justify: distribute;
+	}
+
+	.About ul {
+		font-size: 1.1rem;
+	}
 }
