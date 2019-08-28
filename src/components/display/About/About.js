@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './About.module.css';
 
 const About = props => {
-	const { About } = styles;
+	const { About, techName } = styles;
 
 	return (
 		<div className={About}>

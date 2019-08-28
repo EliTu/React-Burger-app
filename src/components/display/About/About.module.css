@@ -1,4 +1,5 @@
 .About {
+	display: flex;
 }
 
 .About h1 {
@@ -6,4 +7,8 @@
 	text-align: center;
 	color: rgba(27, 24, 24, 0.904);
 	margin: 0 auto;
+}
+
+.techName {
+	font-size: 1.1rem;
 }
