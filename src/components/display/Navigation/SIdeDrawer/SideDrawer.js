@@ -17,7 +17,7 @@ const SideDrawer = ({ handleVisibility, isVisible }) => {
 		<>
 			<Backdrop show={isVisible} removeBackdrop={handleVisibility} />
 			<div className={attachedClasses.join(' ')}>
-				<Logo size="8x" />
+				<Logo size="6x" />
 				<nav onClick={handleVisibility}>
 					<AuthItems />
 					<div className={StyledHorizontal} />
