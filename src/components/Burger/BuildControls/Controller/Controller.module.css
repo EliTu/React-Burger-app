@@ -68,3 +68,26 @@
     color: var(--coloring-light);
     border-radius: 15px;
 }
+
+/* Small screen */
+@media only screen and (max-width: 500px) {
+    .Controller {
+        margin: 0.5rem auto;
+        border-bottom: none;
+    }
+}
+
+/* Extra small screen */
+@media only screen and (max-width: 350px) {
+    .Controller {
+        margin: 0.1rem auto;
+    }
+
+    .Controller .More {
+        border-radius: 150px;
+    }
+
+    .Controller .Label {
+        font-size: 0.9rem;
+    }
+}

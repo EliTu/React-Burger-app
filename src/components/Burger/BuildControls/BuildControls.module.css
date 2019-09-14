@@ -75,14 +75,56 @@
     }
 }
 
-/* Mobile */
-@media (max-width: 500px) {
+/* Small screen */
+@media only screen and (max-width: 500px) {
     .BuildControls {
         width: 100%;
-        margin: 1.2rem auto;
+        margin: 0.8rem auto;
         padding: 0;
         outline: none;
         outline-offset: none;
         border-radius: 0;
+    }
+}
+
+/* Edge case */
+@media only screen and (max-width: 400px) {
+    .BuildControls {
+        margin: 1.4rem auto;
+    }
+
+    .Price {
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+    }
+
+    .Sum {
+        font-size: 1.1rem;
+    }
+
+    .OrderButton {
+        padding: 10px 20px;
+        margin: 0.8rem auto;
+    }
+}
+
+/* Extra small screen */
+@media only screen and (max-width: 350px) {
+    .BuildControls {
+        margin: 0.5rem auto;
+    }
+
+    .Price {
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+    }
+
+    .Sum {
+        font-size: 1.1rem;
+    }
+
+    .OrderButton {
+        padding: 10px 20px;
+        margin: 0.8rem auto;
     }
 }

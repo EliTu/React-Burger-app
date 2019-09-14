@@ -27,6 +27,10 @@
 
 /* Small screen */
 @media only screen and (max-width: 500px) {
+    .Footer {
+        height: 27px;
+    }
+
     .Footer p {
         margin-left: 0.5rem;
         margin-right: 0.5rem;
@@ -36,6 +40,10 @@
 
 /* Extra small screen */
 @media only screen and (max-width: 350px) {
+    .Footer {
+        height: 27px;
+    }
+
     .Footer p {
         font-size: 0.7rem;
         margin-left: 0.3rem;

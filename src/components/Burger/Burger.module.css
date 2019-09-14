@@ -12,11 +12,24 @@
     font-size: 1.2rem;
 }
 
+/* Small screen */
+@media only screen and (max-width: 500px) {
+    .Burger {
+        width: 70%;
+        height: 150px;
+        margin: 0.5rem auto;
+    }
+
+    .Burger p {
+        font-size: 0.9rem;
+    }
+}
+
 /* Extra small screen */
 @media only screen and (max-width: 350px) {
     .Burger {
         width: 70%;
-        height: 150px;
+        height: 130px;
         margin: 0.4rem auto;
     }
 
@@ -24,6 +37,7 @@
         font-size: 0.85rem;
     }
 }
+
 
 @media(min-width: 1000px) and (min-height: 700px) {
     .Burger {
