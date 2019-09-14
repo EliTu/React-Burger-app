@@ -19,8 +19,16 @@
     background-color: var(--primary-background-light);
 }
 
+/* Extra small screen */
+@media only screen and (max-width: 350px) {
+    .Modal {
+        top: 10%;
+        padding: 1.1rem;
+    }
+}
+
 /* large screen */
-@media (min-width: 600px) {
+@media only screen and (min-width: 600px) {
     .Modal {
         width: 500px;
         left: calc(50% - 250px);

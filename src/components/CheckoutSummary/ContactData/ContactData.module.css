@@ -20,3 +20,15 @@
         width: 500px;
     }
 }
+
+/* Small screen */
+@media only screen and (max-width: 500px) {
+    .ContactData {
+        width: 92%;
+    }
+
+    .ContactData input,
+    textarea {
+        width: 90%;
+    }
+}
