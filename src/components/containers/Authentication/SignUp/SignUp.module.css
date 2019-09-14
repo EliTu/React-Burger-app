@@ -43,6 +43,7 @@
 
 /* Medium screen */
 @media only screen and (max-width: 1250px) {
+
     .SignUp {
         width: 70%;
     }
@@ -52,5 +53,41 @@
 @media only screen and (max-width: 500px) {
     .SignUp {
         width: 90%;
+        margin: 1.5rem auto;
+    }
+
+    .MainHeader {
+        margin: 1rem auto;
+    }
+
+    .SignUp h2 {
+        margin: 0.5rem auto;
+        padding: 0.7rem 0;
+    }
+
+    .SignUp input {
+        width: 80%;
+    }
+}
+
+/* Extra small screen */
+@media only screen and (max-width: 350px) {
+    .MainHeader {
+        margin: 0.3rem auto;
+    }
+
+    .SignUp {
+        margin-bottom: 1rem;
+        padding: 0;
+    }
+
+    .SignUp label {
+        font-size: 0.8rem;
+    }
+
+    .SignUp h2 {
+        margin: 0.3rem auto;
+        padding: 0.4rem 0;
+        font-size: 1.3rem;
     }
 }
