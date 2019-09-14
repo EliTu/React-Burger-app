@@ -11,7 +11,7 @@ export const GoBackMessage = ({ content, history }) => {
 
 	return (
 		<div className={GoBackMessage}>
-			{content}
+			<p>{content}</p>
 			<Button handleClick={handleBackClick} type="Danger">
 				Go back
 			</Button>
