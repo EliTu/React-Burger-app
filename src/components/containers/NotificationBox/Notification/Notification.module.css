@@ -16,7 +16,6 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    height: 85px;
     width: 80%;
     text-align: center;
     font-size: 1.3rem;
@@ -33,6 +32,7 @@
 /* Small screen */
 @media only screen and (max-width: 500px) {
     .Notification p {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
+        margin-top: 2rem;
     }
 }
