@@ -72,7 +72,7 @@
 /* Small screen */
 @media only screen and (max-width: 500px) {
     .Controller {
-        margin: 0.5rem auto;
+        margin: 0.2rem auto;
         border-bottom: none;
     }
 }
