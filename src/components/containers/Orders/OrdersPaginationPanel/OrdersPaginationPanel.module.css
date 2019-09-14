@@ -66,3 +66,10 @@
         margin: 0 0.3rem;
     }
 }
+
+/* Extra small screen */
+@media only screen and (max-width: 350px) {
+    .OrderPaginationPanel {
+        margin: 0.7rem auto;
+    }
+}

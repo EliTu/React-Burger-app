@@ -25,7 +25,8 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 500px) {
+/* Small screen */
+@media only screen and (max-width: 500px) {
     .Orders {
         width: 100%;
     }
@@ -36,5 +37,23 @@
 
     .ControlsContainer {
         width: 95%;
+    }
+}
+
+/* Extra small screen */
+@media only screen and (max-width: 350px) {
+    .Orders .OrdersContainer {
+        margin: 1rem auto;
+        padding: 1rem 0;
+    }
+
+    .ControlsContainer {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .ControlsContainer input,
+    select {
+        width: 90%;
     }
 }
