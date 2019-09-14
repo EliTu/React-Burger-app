@@ -2,10 +2,9 @@
 
 .AuthItems {
     display: block;
-    margin: 0 1rem;
+    margin: 0 auto;
     padding: 0;
     list-style: none;
-    align-items: center;
     text-align: center;
     height: 100%;
     width: 90%;
@@ -26,11 +25,19 @@
 }
 
 /* Medium screen */
-@media only (min-width: 500px) and (max-width: 850px) {
+@media only screen and (min-width: 500px) and (max-width: 850px) {
     .AuthItems .LoggedInMessage {
         width: 60%;
         font-size: 0.9rem;
         padding: 0.9rem 0;
+        margin: 0 auto;
+    }
+}
+
+/* Extra small screen */
+@media only screen and (max-width: 350px) {
+    .AuthItems {
+        margin: 0 auto;
     }
 }
 
