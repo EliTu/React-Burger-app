@@ -93,7 +93,7 @@
 
 /* Extra small screens */
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 370px) {
 	.Item a {
 		padding: 0.25rem 0.5rem;
 	}

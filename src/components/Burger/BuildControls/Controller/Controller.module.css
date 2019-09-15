@@ -78,7 +78,7 @@
 }
 
 /* Extra small screen */
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 370px) {
     .Controller {
         margin: 0.1rem auto;
     }

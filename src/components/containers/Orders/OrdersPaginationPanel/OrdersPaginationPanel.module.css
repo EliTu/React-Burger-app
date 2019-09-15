@@ -68,7 +68,7 @@
 }
 
 /* Extra small screen */
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 370px) {
     .OrderPaginationPanel {
         margin: 0.7rem auto;
     }

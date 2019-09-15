@@ -71,7 +71,7 @@
 }
 
 /* Extra small screen */
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 370px) {
     .MainHeader {
         margin: 0.3rem auto;
     }

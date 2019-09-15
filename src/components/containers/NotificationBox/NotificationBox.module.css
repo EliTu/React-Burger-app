@@ -55,7 +55,7 @@
 }
 
 /* Extra small screen */
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 370px) {
     .NotificationBox {
         width: 85%;
         top: 10%;
